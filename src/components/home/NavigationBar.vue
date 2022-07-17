@@ -6,51 +6,10 @@
       </div>
       <el-menu :default-active="activeIndex" mode="horizontal" :router="true" class="nav-bar"
                text-color="#CCCCCC" background-color="#292A2D" active-text-color="#FFFFFF">
-        <el-menu-item index="/">凤凰书社</el-menu-item>
+        <el-menu-item index="/">Mmall 商城首页</el-menu-item>
         <el-menu-item index="/cart">购物车</el-menu-item>
         <el-menu-item index="/warehouse" :disabled="!isAdministrator">商品库存</el-menu-item>
-        <el-menu-item index="/comment">留言板</el-menu-item>
-        <el-submenu index="2">
-          <template slot="title">相关信息</template>
-          <el-menu-item index="#">
-            <a href="http://icyfenix.cn/introduction/about-the-fenix-project.html" target="_blank">Fenix？这是什么？</a>
-          </el-menu-item>
-          <el-submenu index="#">
-            <template slot="title">选择一种服务端</template>
-            <el-menu-item index="#1">
-              <a href="http://icyfenix.pub/architecture/monolithic-architecture/springboot-base-arch.html"
-                 target="_blank">单体架构 By
-                SpringBoot</a>
-            </el-menu-item>
-            <el-menu-item index="#">
-              <a href="http://icyfenix.pub/architecture/microservices-architecture/springcloud-base-arch.html"
-                 target="_blank">微服务架构 By
-                SpringCloud</a>
-            </el-menu-item>
-            <el-menu-item index="#">
-              <a href="http://icyfenix.pub/architecture/microservices-architecture/kubernetes-base-arch.html"
-                 target="_blank">微服务架构 By
-                Kubernetes</a>
-            </el-menu-item>
-            <el-menu-item index="#">
-              <a href="http://icyfenix.cn/architecture/serverless-architecture/serverless-arch-knative.html"
-                 target="_blank">无服务架构 By Knative</a>
-            </el-menu-item>
-          </el-submenu>
-          <el-submenu index="#2">
-            <template slot="title">真想买一本书？</template>
-            <el-menu-item index="#">
-              <a href="https://item.jd.com/63246908517.html" target="_blank">《深入理解Java虚拟机（第三版）》 @ 京东</a>
-            </el-menu-item>
-            <el-menu-item index="#">
-              <a href="https://item.jd.com/34377092907.html" target="_blank">《智慧的疆界》 @ 京东</a>
-            </el-menu-item>
-            <el-menu-item index="#">
-              <a href="https://item.jd.com/17021405508.html" target="_blank">《Java虚拟机规范（Java SE 7）》 @ 京东</a>
-            </el-menu-item>
-            <el-menu-item index="#">其他几本别买了，不推荐</el-menu-item>
-          </el-submenu>
-        </el-submenu>
+        <!-- <el-menu-item index="/comment">留言板</el-menu-item> -->
       </el-menu>
       <div class="right-action-bar">
         <div class="right-action">

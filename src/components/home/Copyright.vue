@@ -23,20 +23,9 @@
 
       <el-col :span="6">
         <div>
-          <h1>社区与帮助</h1>
-          <ul>
-            <li><a href="">更新日志</a></li>
-            <li><a href="https://icyfenix.cn/exploration/projects">在GitHub网站上获取源码</a></li>
-            <li><a href="https://icyfenix.cn">关于Fenix's Project</a></li>
-            <li><a href="">在Gitter.im上在线讨论</a></li>
-          </ul>
-        </div>
-      </el-col>
-      <el-col :span="6">
-        <div>
           <h1>程序资源</h1>
           <span>
-          Fenix's BookStore前端部分基于以下开源组件和免费资源构建：
+          Mmall 前端部分基于以下开源组件和免费资源构建：
         </span>
           <ul>
             <li><a href="https://cn.vuejs.org/">Vue.js</a><br/>渐进式JavaScript框架</li>
@@ -49,33 +38,15 @@
           </ul>
         </div>
       </el-col>
-      <el-col :span="6">
-        <div>
-          <h1>支持作者</h1>
-          <span>
-          可扫描以下二维码在微信公众号上关注更新文章：
-        </span>
-          <!--          <img src="@/assets/qrcode.png" style="height: 150px">-->
-          <qrcode value="http://weixin.qq.com/r/tEz07EbEQRs_rQKP9xmm" :options="qrcode_options"></qrcode>
-          <span>
-          在微信、微博、GitHub网站上关注、点赞亦是对作者的支持：
-        </span>
-          <ul class="contact_icons">
-            <li><a href="#" target="_blank"><img src="@/assets/icons/weixin.png"></a></li>
-            <li><a href="https://weibo.com/icyfenix" target="_blank"><img src="@/assets/icons/weibo.png"></a></li>
-            <li><a href="https://github.com/fenixsoft" target="_blank"><img src="@/assets/icons/github.png"></a></li>
-          </ul>
-        </div>
-      </el-col>
     </el-row>
-    <el-row>
+    <!-- <el-row>
       <el-col :span="24" type="flex" justify="center">
         <hr>
         <span style="text-align: center">
           Copyright © 2020 网站备案信息：<a href="http://beian.miit.gov.cn">粤ICP备18088957号-1</a>
         </span>
       </el-col>
-    </el-row>
+    </el-row> -->
   </div>
 </template>
 
