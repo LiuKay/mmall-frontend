@@ -65,7 +65,14 @@ export default {
       // 将回车转回HTML的<p>
       desc = api.stringUtil.transToHTML(desc)
 
-      const remote = this.createMode ? api.warehouse.createProduct : api.warehouse.updateProduct
+      let remote
+      if (this.createMode) {
+        remote = api.warehouse.createProduct
+        this.product.id = null
+      } else {
+        remote = api.warehouse.updateProduct
+      }
+
       try {
         await remote({
           ...this.product,
