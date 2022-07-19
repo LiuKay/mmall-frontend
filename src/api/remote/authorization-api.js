@@ -13,7 +13,7 @@ export default {
   login (username, password) {
     return axios.get('/token', {
       // 认证、授权的API均以/oauth开头，而不是默认的/restful
-      baseURL: '/oauth',
+      baseURL: 'http://localhost:8080/oauth',
       params: {
         username,
         password: api.encrypt.defaultEncode(password),

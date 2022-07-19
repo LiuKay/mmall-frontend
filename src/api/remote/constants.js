@@ -8,7 +8,7 @@ export default {
   REMOTE_BASE_URL: 'http://localhost:8080/restful',
 
   // 认证服务请求前缀
-  AUTH_BASE_URL: '/oauth',
+  AUTH_BASE_URL: 'http://localhost:8080/oauth',
   // 验证的Token类型，正常来说应该是取服务端返回的，不过这个不会变，就写在这里了
   AUTH_TOKEN_TYPE: 'bearer ',
   // 授权类型：OAuth2的密码模式
