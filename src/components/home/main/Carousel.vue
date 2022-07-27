@@ -21,7 +21,12 @@ export default {
   },
   methods: {
     loadDetail (productId) {
-      this.$router.push(`/detail/${productId}`)
+      // this.$router.push(`/detail/${productId}`)
+      this.$notify({
+        title: '提示',
+        message: '这是一个预留接口，去往你想定制的页面',
+        type: 'success'
+      })
     }
   }
 }

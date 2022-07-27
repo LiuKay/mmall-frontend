@@ -2,7 +2,7 @@
   <div>
     <div class="nav-bar-container">
       <div class="left-action-bar">
-        <img src="@/assets/logo-gray-light.png" class="icon">
+        <img src="@/assets/mmall.png" class="icon">
       </div>
       <el-menu :default-active="activeIndex" mode="horizontal" :router="true" class="nav-bar"
                text-color="#CCCCCC" background-color="#292A2D" active-text-color="#FFFFFF">

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <img src="../../assets/logo-color.png" class="logo">
-    <span class="title">Fenix's Bookstore</span>
+    <img src="../../assets/mmall.png" class="logo">
+    <span class="title">Mmall Store</span>
     <el-form :model="authorization" :rules="rules" ref="login-form" class="login-form">
       <el-form-item prop="name">
         <el-input placeholder="请输入用户" v-model="authorization.name">

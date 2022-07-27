@@ -1,7 +1,7 @@
 <template>
   <el-card class="box-card">
     <div slot="header" class="header">
-      <span>热销书籍</span>
+      <span>热销商品</span>
     </div>
     <el-row :gutter="0">
       <el-col :span="6" v-for="book in books" :key="book.id" class="book-container">

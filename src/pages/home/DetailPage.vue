@@ -9,9 +9,9 @@
         <el-col :span="6">
           <div style="padding-top: 30px">
             <span v-for="spec in book.specifications" :key="spec.item" class="spec">{{spec.item}}：{{spec.value}}</span>
-            <span class="spec" style="display: inline-block;">豆瓣评分：</span>
-            <el-rate :value="book.rate/2" disabled style="display: inline-block;"/>
-            <span style="color:#ff9900; font-size: 14px">{{book.rate}}</span>
+<!--            <span class="spec" style="display: inline-block;">广告：</span>-->
+<!--            <el-rate :value="book.rate/2" disabled style="display: inline-block;"/>-->
+<!--            <span style="color:#ff9900; font-size: 14px">{{book.rate}}</span>-->
           </div>
         </el-col>
         <el-col :span="12">
